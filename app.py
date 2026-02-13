@@ -14,14 +14,12 @@ except:
     bst = pd.DataFrame()
 
 st.header("🟢 Regular Stock")
-
 if reg.empty:
     st.write("No models found.")
 else:
     st.dataframe(reg)
 
 st.header("🟡 B-Stock")
-
 if bst.empty:
     st.write("No B-Stock found.")
 else:
