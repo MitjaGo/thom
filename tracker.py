@@ -9,7 +9,7 @@ def scrape():
     Separates Regular and B-Stock based on 'condition' field.
     Returns: regular_df, bstock_df
     """
-    api_url = "https://www.thomann.it/solrsearch/select"
+    api_url = "https://www.thomann.it/modelli_tipo_t.html"
 
     # Solr query parameters
     params = {
